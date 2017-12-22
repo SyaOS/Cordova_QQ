@@ -158,8 +158,8 @@ export interface QQShareOptions {
   pluginRef: 'QQSDK',
   repo: 'https://github.com/iVanPan/Cordova_QQ',
   platforms: ['Android', 'iOS'],
-  install: 'ionic cordova plugin add cordova-plugin-qqsdk --variable QQ_APP_ID=YOUR_QQ_APPID',
-  installVariables: ['QQ_APP_ID'],
+  install: 'ionic cordova plugin add cordova-plugin-qqsdk --variable QQ_IOS_APP_ID=YOUR_QQ_IOS_APPID QQ_ANDROID_APP_ID=YOUR_QQ_ANDROID_APPID',
+  installVariables: ['QQ_IOS_APP_ID', 'QQ_ANDROID_APP_ID'],
 })
 @Injectable()
 export class QQSDK extends IonicNativePlugin {

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iVanPan/Cordova_QQ.git"
+    "url": "git+https://github.com/SyaOS/Cordova_QQ.git"
   },
   "cordova": {
     "id": "cordova-plugin-qqsdk",
@@ -32,10 +32,10 @@
     "share",
     "favorites"
   ],
-  "author": "https://github.com/iVanPan",
+  "author": "Vesper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iVanPan/Cordova_QQ/issues"
+    "url": "https://github.com/SyaOS/Cordova_QQ/issues"
   },
-  "homepage": "https://github.com/iVanPan/Cordova_QQ"
+  "homepage": "https://github.com/SyaOS/Cordova_QQ"
 }

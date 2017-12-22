@@ -52,7 +52,7 @@ public class QQSDKPlugin extends CordovaPlugin {
   private static Tencent mTencent;
   private CallbackContext currentCallbackContext;
   private String APP_ID;
-  private static final String QQ_APP_ID = "qq_app_id";
+  private static final String QQ_ANDROID_APP_ID = "qq_android_app_id";
   private static final String QQ_CANCEL_BY_USER = "cancelled by user";
   private static final String QQ_RESPONSE_ERROR = "QQ response is error";
   private static final String QZONE_SHARE_CANCEL = "QZone share is cancelled";
@@ -62,7 +62,7 @@ public class QQSDKPlugin extends CordovaPlugin {
 
   @Override protected void pluginInitialize() {
     super.pluginInitialize();
-    APP_ID = webView.getPreferences().getString(QQ_APP_ID, "");
+    APP_ID = webView.getPreferences().getString(QQ_ANDROID_APP_ID, "");
     mTencent = Tencent.createInstance(APP_ID, this.cordova.getActivity().getApplicationContext());
   }
 

@@ -24,7 +24,7 @@ NSString *appId = @"";
  *  插件初始化，主要用户appkey注册
  */
 - (void)pluginInitialize {
-    appId = [[self.commandDelegate settings] objectForKey:@"qq_app_id"];
+    appId = [[self.commandDelegate settings] objectForKey:@"qq_ios_app_id"];
     if (nil == tencentOAuth) {
         tencentOAuth = [[TencentOAuth alloc] initWithAppId:appId andDelegate:self];
     }
