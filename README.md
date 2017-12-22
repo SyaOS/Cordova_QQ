@@ -46,7 +46,7 @@ A Cordova wrapper around the Tencent QQ SDK for Android and iOS. Provides access
 - Cordova-iOS >= 4.0			
 
 ## Installation
-1.```cordova plugin add cordova-plugin-qqsdk --variable QQ_IOS_APP_ID=YOUR_QQ_APPID QQ_ANDROID_APP_ID=YOUR_QQ_ANDROID_APPID```                  
+1.```cordova plugin add git://github.com/SyaOS/Cordova_QQ.git --variable QQ_IOS_APP_ID=YOUR_QQ_IOS_APPID --variable QQ_ANDROID_APP_ID=YOUR_QQ_ANDROID_APPID```                  
 2. cordova build          			
 
 ## Documentation
